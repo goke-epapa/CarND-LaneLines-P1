@@ -62,3 +62,6 @@ In order to draw a single line on the left and right lanes, I modified the draw_
 1. Using an improved algorithm to extrapolate the lines, preferrably one that does not depend on a constant value (gradient threshold), but on a variable that can be calculated based on the lines or region of interest.
 2. Using an improved way of detect the lanes.
 3. Find a better way of extrapolating the lines for crazier scenarios like the challenge video.
+
+### References
+- https://peteris.rocks/blog/extrapolate-lines-with-numpy-polyfit/
